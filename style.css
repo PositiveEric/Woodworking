@@ -1,0 +1,21 @@
+:root {
+    --background_color_base: #1C1C1C;
+    --background_color_brown: #181210;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: vim(--background_color_brown)
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: vim(--background_color_base);
+    min-height: 20rem;
+}
