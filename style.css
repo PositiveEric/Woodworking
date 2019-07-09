@@ -1,10 +1,18 @@
 :root {
     --background_color_base: #1C1C1C;
     --background_color_brown: #181210;
+    --background_color_hover: rgb(241, 217, 207);
+
+    --text_color_one: #FFFFFF;
+    --text_color_two: #7F5847;
+
+    --highlight_color: #7F5847;
+    --border_color: rgb(58, 52, 50);
 }
 
 body, html {
     height: 100%;
+    font-size: 16px;
 }
 
 body {
@@ -15,14 +23,51 @@ body {
 
 .wrapper {
     width: 100%;
-    max-width: 1360px;
+    max-width: 85rem;
     margin: 0 auto;
-    background-color: vim(--background_color_base);
+    background-color: var(--background_color_base);
     min-height: 20rem;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 7.5rem;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .inner  {
     width: 100%;
-    max-width: 1360px;
+    max-width: 85rem;
     margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--text_color_one);
+}
+
+.logo span {
+    font-weight: 700;
+    color: var(--text_color_two);
+}
+
+.page_menu a {
+    color: var(--text_color_one);
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    margin: 0.9375rem;
+}
+
+.page_menu a.active, .page_menu a:hover {
+    background: var(--highlight_color);
+    color: var(--background_color_hover);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
