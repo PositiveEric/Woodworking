@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PositiveEric/Woodworking/issues"
   },
-  "homepage": "https://github.com/PositiveEric/Woodworking#readme"
+  "homepage": "https://github.com/PositiveEric/Woodworking#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
 }
