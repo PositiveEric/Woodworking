@@ -9,7 +9,8 @@ body, html {
 
 body {
     margin: 0;
-    background-color: vim(--background_color_brown)
+    background-color: #1C1C1C;
+    font-family: 'Open Sans', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .wrapper {
@@ -18,4 +19,10 @@ body {
     margin: 0 auto;
     background-color: vim(--background_color_base);
     min-height: 20rem;
+}
+
+.inner  {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
 }
