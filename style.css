@@ -32,6 +32,7 @@ a {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
     min-height: 10em;
     box-sizing: border-box;
+    padding-bottom: 1.6em;
    
 }
 
@@ -140,3 +141,62 @@ a.button_content {
 
 }
 
+.footer {
+    height: 6.6em;
+    color: #fff;
+}
+.footer div {
+    padding: em;
+}
+.footer_innter {
+    padding: 0 auto;
+    margin-top: 1.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    float: unset;
+}
+
+.footer h1 {
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.footer a, p{
+    font-size: 0.75em;
+    text-align: justify;
+}
+
+.categories_footer {
+    width: 12em;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em 1.5em;    grid-template-rows: auto;
+    align-content: center;
+}
+
+
+.about_footer {
+    width: 5.5em;
+    display: grid;
+    grid-gap: 0.5em;
+}
+
+.categories_footer h1 {
+    grid-column: 1 / span 2;
+}
+
+.connect_footer {
+    width: 7.594em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+} 
+
+.connect_footer h1 {
+    grid-column: 1 / span 3;
+}
+.sublime_woodworking_footer {
+    width: 20.85em;
+}
